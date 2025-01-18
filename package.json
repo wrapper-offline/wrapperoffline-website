@@ -1,0 +1,18 @@
+{
+  "name": "wrapperoffline.org",
+  "version": "1.0.0",
+  "description": "Source of wrapperoffline.org. Will work on readme l8r.",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
