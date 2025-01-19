@@ -1,0 +1,5 @@
+<div class="col">
+                <img src="images/3.png" class="rounded mx-auto d-block" alt="" height="250px">
+                <h2 class="text-center pt-2">Install Anywhere</h2>
+                <h6 class="text-center">Wrapper: Offline has official builds for Windows, macOS, and Linux. You can also build the source code from scratch for other platforms.</h6>
+              </div>

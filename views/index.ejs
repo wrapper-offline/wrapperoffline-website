@@ -5,6 +5,11 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <style>
+        body {
+          background-color: #000;
+        }
+        </style>
     </head>
     <body>
         <header>
@@ -16,7 +21,6 @@
                   <div class="d-flex justify-content-end">
                     <div class="navbar-nav">
                       <a class="nav-link active" aria-current="page" href="/">Home</a>
-                      <a class="nav-link" href="/features">Features</a>
                       <a class="nav-link" href="/support">Support</a>
                       <a class="nav-link" href="/faq">FAQs</a>
                       <a class="nav-link" href="/get-involved">Get Involved</a>
@@ -29,40 +33,62 @@
               </nav>
         </header>
         <section>
-            <div class="container-fluid" style="background-image: url(/images/home_bg_v3.jpg); background-position: center;">
+            <div class="container-fluid" style="background-image: url(/images/home_bg_v3.jpg); background-position: center; background-size: cover;">
             <div class="container pt-5">
                 <h1 class="d-flex justify-content-center" style="text-shadow: 0 0 20px #fff; font-size: 50px;"><strong>Anyone Can Animate!</strong></h1>
                 <h5 class="d-flex justify-content-center" style="text-shadow: 0 0 20px #fff;">Wrapper: Offline is a free & open-source revival of Vyond's Legacy Video Maker. Make animations in hours, not weeks.</h5>
                 <div class="text-center mt-3">
                     <a class="btn btn-success" href="/download">Get Wrapper: Offline!</a>
-                    <a class="btn btn-primary" href="/features">Features</a>
+                    <a class="btn btn-primary" href="#features">Features</a>
                     <a class="btn btn-primary" href="/get-involved">Get Involved</a>
                 </div>
                 <div class="text-center mt-3 pb-5">
                     <img src="/images/homemac2.png" alt="" height="275px">
+                    <div class="alert alert-warning" role="alert">
+                      Disclaimer: This project is not affiliated with or endorsed by Vyond/GoAnimate Inc.
+                      Wrapper: Offline is a decentralized, open-source initiative developed exclusively for archival purposes. It operates on a non-profit basis and does not accept any form of donations.
+                    </div>
+                    
                 </div>
             </div>
         </div>
         </section>
-        <section style="color: white; background-color: #000;" class="bg-gradient">
-          <h1 class="d-flex justify-content-center py-4" style="text-shadow: 0 0 20px #000000;"><strong>Make Your Own Animated Videos!</strong></h1>
+        <section style="color: white; background-color: #000;" class="bg-gradient" id="features">
+          <h1 class="d-flex justify-content-center py-4" style="text-shadow: 0 0 20px #000000;"><strong>All the things you love about GoAnimate...</strong></h1>
           <div class="container pt-2 pb-5">
             <div class="row align-items-start">
               <div class="col">
                 <img src="images/1.png" class="rounded mx-auto d-block" alt="" height="250px">
-                <h2 class="text-center pt-2">Quick and Easy</h2>
-                <h6 class="text-center">With Wrapper: Offline, you can turn your ideas into reality instantly, as soon as inspiration strikes.</h6>
+                <h2 class="text-center pt-2">The Video Maker</h2>
+                <h6 class="text-center">With Wrapper: Offline's implementation of Vyond's LVM, you can turn your ideas into reality instantly, as soon as inspiration strikes. The sky's the limit!</h6>
               </div>
               <div class="col">
                 <img src="images/2.png" class="rounded mx-auto d-block" alt="" height="250px">
-                <h2 class="text-center pt-2">Multiple Styles</h2>
-                <h6 class="text-center">There are countless themes to choose from, each with their own props, characters, and backdrops. With some themes, you can even create your own characters!</h6>
+                <h2 class="text-center pt-2">The Character Creator</h2>
+                <h6 class="text-center">Want to bring yourself in the world of GoAnimate? With Wrapper: Offline's implementation of the character creator, you can design unique characters for your videos.</h6>
               </div>
               <div class="col">
                 <img src="images/3.png" class="rounded mx-auto d-block" alt="" height="250px">
-                <h2 class="text-center pt-2">Install Anywhere</h2>
-                <h6 class="text-center">Wrapper: Offline has official builds for Windows, macOS, and Linux. You can also build the source code from scratch for other platforms.</h6>
+                <h2 class="text-center pt-2">The Old Themes</h2>
+                <h6 class="text-center">Wrapper: Offline has the classic themes you've been missing. There are many to choose from, each with their own props, characters, and backdrops.</h6>
               </div>
+              <h1 class="d-flex justify-content-center py-4" style="text-shadow: 0 0 20px #000000;"><strong>And then some!</strong></h1>
+              <div class="row align-items-start">
+                <div class="col">
+                  <img src="images/4.png" class="rounded mx-auto d-block" alt="" height="250px">
+                  <h2 class="text-center pt-2">Customizable</h2>
+                  <h6 class="text-center">You can create custom character assets, props, or even your own themes! Due to Wrapper: Offline's open nature, you can do more with the LVM than ever before!</h6>
+                </div>
+                <div class="col">
+                  <img src="images/5.png" class="rounded mx-auto d-block" alt="" height="250px">
+                  <h2 class="text-center pt-2">Install Anywhere</h2>
+                  <h6 class="text-center">Wrapper: Offline has official builds for Windows, macOS, and Linux. You can also build the source code from scratch for other platforms.</h6>
+                </div>
+                <div class="col">
+                  <img src="images/6.png" class="rounded mx-auto d-block" alt="" height="250px">
+                  <h2 class="text-center pt-2">Runs Offline</h2>
+                  <h6 class="text-center">All of your video and character data is stored locally. Wrapper: Offline is also portable between systems. Download once, run anywhere.</h6>
+                </div>
             </div>
           </div>
         </section>
@@ -71,9 +97,29 @@
           <div class="container pt-2 pb-5">
                 <h5 class="text-center">Wrapper: Offline is a public project under the MIT License. Everyone is free to derive from Wrapper: Offline's code and create their own versions of the software. As per the MIT License, you must preserve all copyright and license notices.</h5>
                 <div class="text-center mt-3">
-                  <a class="btn btn-dark" href="https://github.com/wrapper-offline/wrapper-offline">Fork us on Github!</a>
+                  <a class="btn btn-dark" href="https://github.com/wrapper-offline/wrapper-offline">Fork us on GitHub!</a>
                 </div>
           </div>
+          <section style="background-color: #a5a5a5;" class="bg-gradient">
+            <div class="container pt-2 pb-2 d-flex justify-content-center align-items-center">
+              <h3 class="my-4">Ready To Start Animating?</h3> <a class="btn btn-success ms-2" href="/download">Get Wrapper: Offline!</a>
+            </div>
+            </div>
         </section>
+        </section>
+        <div style="background-color: #000;" class="bg-gradient">
+          <div class="container">
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <p class="col-md-4 mb-0 text-white">© <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> W:O Contributors & You. Not affiliated with GoAnimate, Inc. Wrapper: Offline and this site are under the MIT License.</p>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center">
+              <img src="/images/76627087.png" class="bi me-2" width="40">
+            </a>
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="https://github.com/wrapper-offline/wrapper-offline" class="nav-link px-2 text-white">Wrapper: Offline on GitHub</a></li>
+              <li class="nav-item"><a href="https://github.com/wrapper-offline/wrapperoffline.org" class="nav-link px-2 text-white">This Site on GitHub</a></li>
+            </ul>
+          </footer>
+          </div>
+        </div>
     </body>
 </html>
