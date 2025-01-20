@@ -1,3 +1,2 @@
-# wrapperoffline.org
-Source of wrapperoffline.org.
-Will work on readme l8r.
+# Wrapper Offline, online.
+Will add build instructions when I feel like it.
