@@ -4,7 +4,8 @@
   "description": "Source of wrapperoffline.org. Will work on readme l8r.",
   "main": "app.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "server.js"
   },
   "author": "",
   "license": "MIT",
